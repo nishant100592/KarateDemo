@@ -10,5 +10,5 @@ Feature: GET User details
     When method GET
     Then status 200
 
-    And def userDetail = response
-    Then match userDetail.data[*].name contains ["Nishant Dwivedi"]
+#    And def userDetail = response
+#    Then match userDetail.data[*].name contains ["Nishant Dwivedi"]
