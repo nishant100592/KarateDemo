@@ -6,7 +6,7 @@ Feature: GET User details
 
   Scenario: Get user detail by name
     Given path '/public/v1/users'
-    And param name = 'Nishu'
+    And param name = 'Nishant'
     When method GET
     Then status 200
 
