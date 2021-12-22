@@ -10,5 +10,4 @@ Feature: GET User details
     When method GET
     Then status 200
 
-#Change in getUser.feature file
 
